@@ -1,0 +1,10 @@
+body {
+  background: #000;
+}
+
+/* NAVBAR */
+@media all and (max-width: 480px) {
+  .navbar {
+    background: #0dcaf0 !important;
+  }
+}
