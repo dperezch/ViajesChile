@@ -46,14 +46,7 @@ body {
   --bs-tooltip-color: #fff;
   font-style: italic;
 }
-.custom-popover {
-  --bs-popover-max-width: 200px;
-  --bs-popover-border-color: #0dcaf0;
-  --bs-popover-header-bg: #0dcaf0;
-  --bs-popover-header-color: white;
-  --bs-popover-body-padding-x: 1rem;
-  --bs-popover-body-padding-y: 0.5rem;
-}
+
 /* FOOTER */
 .s-network a {
   text-decoration: none;
