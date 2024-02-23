@@ -40,6 +40,17 @@ body {
   }
 }
 
+/* SECTION: CONTACTO */
+.custom-tooltip{
+  --bs-tooltip-bg: #0dcaf0;
+  --bs-tooltip-color: #fff;
+  font-style: italic;
+}
+.custom-popover{
+  background: #0dcaf0;
+  font-style: italic;
+  font-weight: bold;
+}
 /* FOOTER */
 .s-network a{
   text-decoration: none;

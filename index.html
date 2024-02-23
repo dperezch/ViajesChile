@@ -30,6 +30,14 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- JQuery 3.7.1-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script -->
+    <script src="/assets/js/script.js"></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -289,7 +297,9 @@
             type="text"
             class="form-control"
             id="exampleFormControlInput1"
-            placeholder="Nombre Apellido"
+            data-bs-toggle="tooltip"
+            data-bs-title="Escribe aquí tu nombre y apellido"
+            data-bs-custom-class="custom-tooltip"
           />
         </div>
         <div class="mb-3">
@@ -300,7 +310,9 @@
             type="text"
             class="form-control"
             id="exampleFormControlInput1"
-            placeholder="Título asunto"
+            data-bs-toggle="tooltip"
+            data-bs-title="Escribe aquí el asunto y tu email de contacto"
+            data-bs-custom-class="custom-tooltip"
           />
         </div>
         <div class="mb-3">
@@ -311,6 +323,9 @@
             class="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
+            data-bs-toggle="tooltip"
+            data-bs-title="Escribe aquí un breve mensaje"
+            data-bs-custom-class="custom-tooltip"
           ></textarea>
         </div>
         <div class="mb-3">
