@@ -41,18 +41,21 @@ body {
 }
 
 /* SECTION: CONTACTO */
-.custom-tooltip{
+.custom-tooltip {
   --bs-tooltip-bg: #0dcaf0;
   --bs-tooltip-color: #fff;
   font-style: italic;
 }
-.custom-popover{
-  background: #0dcaf0;
-  font-style: italic;
-  font-weight: bold;
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: #0dcaf0;
+  --bs-popover-header-bg: #0dcaf0;
+  --bs-popover-header-color: white;
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: 0.5rem;
 }
 /* FOOTER */
-.s-network a{
+.s-network a {
   text-decoration: none;
   color: #fff;
   font-size: 25px;
