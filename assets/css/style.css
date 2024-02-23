@@ -8,14 +8,14 @@ body {
 }
 
 /* NAVBAR */
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
   .navbar {
     background: #0dcaf0 !important;
   }
 }
 
 /* HEADER */
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
   header {
     margin-top: 3em;
   }
